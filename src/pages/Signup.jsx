@@ -13,14 +13,14 @@ const Signup = () => {
 
     if (user && email && password) {
       try {
-        // Save user details to db.json (fake backend)
+        
         await axios.post("http://localhost:3001/users", {
           username: user,
           email,
           password
         });
 
-        // Navigate to Task Page
+    
         navigate("/tasks");
       } catch (error) {
         console.error("Error signing up:", error);

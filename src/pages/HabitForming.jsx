@@ -66,7 +66,7 @@ const HabitForming = () => {
       </div>
 
       {/* Testimonials */}
-     {/* Testimonials */}
+ 
 <div className="py-16 bg-white">
   <div className="max-w-6xl mx-auto px-4 sm:px-8">
     <h2 className="text-3xl font-bold text-center mb-10 text-gray-800">

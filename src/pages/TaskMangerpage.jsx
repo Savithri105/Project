@@ -47,8 +47,7 @@ const TaskManagerPage = ({ user }) => {
         <p className="text-blue-600">Organize your work efficiently</p>
       </div>
       
-      {/* Task List implementation remains the same as before */}
-      {/* ... */}
+      
     </div>
   );
 };

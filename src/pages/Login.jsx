@@ -21,10 +21,10 @@ const Login = () => {
       const user = response.data[0];
 
       if (user) {
-        // ✅ Store the username in localStorage
-        localStorage.setItem("username", user.username); // Assuming "username" is the key in db.json
+     
+        localStorage.setItem("username", user.username); 
 
-        // ✅ Navigate to tasks page
+
         navigate("/tasks");
       } else {
         alert("Invalid email or password.");

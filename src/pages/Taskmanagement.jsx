@@ -4,17 +4,17 @@ import { Link } from 'react-router-dom';
 const TaskManagement = () => {
   const features = [
     {
-      icon: "https://cdn-icons-png.flaticon.com/512/2838/2838694.png", // Blue task list icon
+      icon: "https://cdn-icons-png.flaticon.com/512/2838/2838694.png", 
       title: "Task Organization",
       description: "Categorize tasks with tags, priorities, and due dates for effortless management"
     },
     {
-      icon: "https://cdn-icons-png.flaticon.com/512/3595/3595455.png", // Blue calendar check icon
+      icon: "https://cdn-icons-png.flaticon.com/512/3595/3595455.png", 
       title: "Smart Scheduling",
       description: "Auto-schedule tasks based on your availability and energy levels"
     },
     {
-      icon: "https://cdn-icons-png.flaticon.com/512/2462/2462719.png", // Blue team task icon
+      icon: "https://cdn-icons-png.flaticon.com/512/2462/2462719.png", 
       title: "Team Collaboration",
       description: "Delegate tasks and track progress with your team in real-time"
     }
