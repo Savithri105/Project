@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "1c5e",
+      "username": "Savithri",
+      "email": "ramswetha@gmail.com",
+      "password": "savithri"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "8018",
+      "title": "Hello",
+      "completed": true
+    },
+    {
+      "id": "5b45",
+      "title": "i need to complete the project",
+      "completed": false
+    }
+  ]
+}
