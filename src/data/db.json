@@ -15,20 +15,23 @@
   ],
   "tasks": [
     {
-      "id": "8018",
-      "title": "Hello",
-      "completed": true
-    },
-    {
       "id": "5b45",
       "title": "i need to complete the project",
       "completed": true
+    }
+  ],
+  "routines": [
+    {
+      "id": "7d41",
+      "activity": "Yoga",
+      "startTime": "5:30 am",
+      "endTime": "7:30 am"
     },
     {
-      "id": "86ff",
-      "title": "project",
-      "description": "due date",
-      "completed": true
+      "id": "8c19",
+      "activity": "Evening walk",
+      "startTime": "5:00 pm",
+      "endTime": "5:30 pm"
     }
   ]
 }

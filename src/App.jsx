@@ -8,6 +8,7 @@ import TaskManagement from './pages/Taskmanagement'
 import Overview from "./pages/Overview";
 import HabitForming from "./pages/HabitForming";
 import TaskPage from './pages/Taskpage';
+import DailyRoutine from "./pages/DailyRoutine";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/TaskManagement" element={<TaskManagement />} />
         <Route path="/HabitForming" element={<HabitForming />}/>
         <Route path="/tasks" element={<TaskPage />} />
+         <Route path="/daily-routine" element={<DailyRoutine />} />
       </Routes>
     </>
   );

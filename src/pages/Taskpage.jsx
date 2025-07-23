@@ -77,7 +77,7 @@ const TaskPage = () => {
         <h2 className="text-xl font-bold mb-6">Task Manager</h2>
         <p className="text-sm">👤 {username}</p>
         <nav className="mt-10 space-y-4">
-          <p className="hover:underline cursor-pointer">Daily Routine</p>
+          <a href="/daily-routine" className="hover:underline block">Daily Routine</a>
    
         </nav>
       </aside>
