@@ -5,6 +5,12 @@
       "username": "Savithri",
       "email": "ramswetha@gmail.com",
       "password": "savithri"
+    },
+    {
+      "id": "316e",
+      "username": "Savithri",
+      "email": "ramswethaa915@gmail.com",
+      "password": "savithri"
     }
   ],
   "tasks": [
@@ -16,7 +22,13 @@
     {
       "id": "5b45",
       "title": "i need to complete the project",
-      "completed": false
+      "completed": true
+    },
+    {
+      "id": "86ff",
+      "title": "project",
+      "description": "due date",
+      "completed": true
     }
   ]
 }
