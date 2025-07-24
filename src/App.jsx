@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Login from "./pages/Login";
-import Home from "./pages/Home";
+
 import Pricing from "./pages/Pricing";
 import Signup from "./pages/Signup";
 import TaskManagement from './pages/Taskmanagement'
@@ -16,7 +16,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path="/" element={<Overview />}/> 
-        <Route path="/home" element={<Home />}/>
+    
         <Route path="/pricing" element={<Pricing />}/>
         <Route path="/Login" element={<Login/>} />
         <Route path="/signup" element={<Signup />} />
